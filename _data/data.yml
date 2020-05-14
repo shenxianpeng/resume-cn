@@ -1,0 +1,144 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: True # set to False if you want education in main section instead of in sidebar
+
+    # Profile information
+    name: 沈显鹏
+    tagline: DevOps工程师
+    avatar: profile.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+    # Sidebar links
+    email: xianpeng.shen@gmail.com
+    phone: +86 18642690086
+    linkedin: xianpeng-shen
+    github: shenxianpeng
+    gitlab:
+    bitbucket:
+    twitter:
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    codewars:
+    goodreads: # Number-Username, e.g. 123456-alandoe
+
+    languages:
+      - idiom: 中文
+        level: 本地
+
+      - idiom: 英语
+        level: 良好
+
+    interests:
+      - item: 足球
+        link:
+
+      - item: 游泳
+        link:
+
+      - item: 写作
+        link:
+
+career-profile:
+    title: 个人总结
+    summary: |
+      - 九年软件测试及自动化经验，曾在东软、京东、Rocket Software从事软件测试岗位，负责产品的自动化设计、实施。
+      - 从测试转为开发，两年软件开发经验，主导产品的的自动化构建、发布、DevOps基础设施建设，了解软件产品的生命周期。
+      - 熟悉整个产品测试，研发，构建、发布流程，包括自动化测试、持续集成，制品工具类的选择，部署和集成经验。
+      - 有多种类型以及多个平台的构建和继续集成经验，包括系统应用、网络应用。
+
+education:
+    - degree: 软件技术学士
+      university: 东北大学（自考）
+      time: 2008 - 2010
+      details: |
+
+    - degree: 软件技术
+      university: 辽宁交通高等专科学校
+      time: 2006 - 2009
+      details: |
+
+experiences:
+    - role: Build&DevOps工程师
+      time: 2018 - Present
+      company: Rocket Software, 大连
+      details: |
+        Rocket Software Multi-Value 构建工程师， 负责 MV Server 团队所有产品(UV, UD, UCC, UNDK)的构建工作，负责产品的自动化构建的规划、工具类的选择和代码及 Pipeline 实施。
+
+          - 负责并参与 MV Server 的每年规划会议、DevOps规划以及工作流程制定和优化。
+          - 负责所有Git仓库的分支策略制定和维护。
+          - 负责MV Server 团队的 Jenkins Shared Libraries 开发、维护，为其他团队提供重用代码。
+          - 负责产品安全，License等工具类集成，开发环境的搭建、技术招聘等等。
+
+    - role: 测试开发工程师
+      time: 2014 - 2018
+      company: Rocket Software, 大连
+      details: |
+        作为 Rocket Discover 测试自动化带头人，带领测试团队的自动化测试脚本研发，负责自动化测试框架的选择、部署以及代码实现。
+
+          - 负责并参与 Rocket Discover 自动化测试用例设计、公共类的定义以及开发流程制定。
+          - 负责搭建和维护自动化测试仓库、测试技术招聘、新人培训等。
+
+    - role: 软件测试工程师
+      time: 2012 - 2014
+      company: 京东商城, 北京
+      details: |
+        作为京东商城财务组的核心测试工程师，帮助测试团队从零开始设计自动化测试，负责自动测试的开发和维护。
+
+          - 维护京东财务 POS 系统的测试和自动化测试脚本的开发。
+          - 负责自动化脚本的持续集成。
+
+projects:
+    title: 项目
+    intro: >
+      在工作中和工作外开发的独立项目。
+
+    assignments:
+      - title: 个人博客
+        link: "https://shenxianpeng.github.io/"
+        tagline: "记录和分享在工作中遇到的问题和解决办法，记录和分享工作中好的实践。"
+
+      - title: 个人博客小程序
+        link: "微信小程序ID：HelloWorldPro"
+        tagline: "个人博客的微信小程序版，为了学习如何开发和发布一个微信小程序二创建。"
+
+      - title: MV Intelligent Terminal
+        link: "#"
+        tagline: "提出并利用 Python 和 MV UOPY API 为 MV 产品创建智能命令行。此项目获得 Rocket Build 一等奖和 CPO 双项大奖。"
+
+      - title: JST-automation
+        link: "https://github.com/shenxianpeng/JST-automation"
+        tagline: "使用 Java Selenium TestNG 实施的一个自动化测试框架。"
+
+      - title: nightwatch-e2e
+        link: "https://github.com/nightwatchjs-cn/nightwatch-e2e"
+        tagline: "使用 Javascript 技术栈里最流行的自动化测试框架之一 nightwatch 设计的架构和编写的自动化测试实例，并集成 CircleCI, Travis, Code Quality。"
+
+skills:
+    title: 技能 &amp; 专业
+
+    toolset:
+      - name: 持续集成
+        level: 95%
+
+      - name: 自动化测试
+        level: 95%
+
+      - name: DevOps
+        level: 90%
+
+      - name: 软件生命周期
+        level: 90%
+
+      - name: Batch & Shell
+        level: 80%
+
+      - name: Database (SQL & NoSQL)
+        level: 70%
+
+      - name: Java & Python
+        level: 70%
+      - name: Javascript & C
+        level: 55%
+
