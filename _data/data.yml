@@ -43,10 +43,10 @@ sidebar:
 career-profile:
     title: 个人总结
     summary: |
-      - 九年软件测试及自动化经验，曾在东软、京东、Rocket Software从事软件测试岗位，负责产品的自动化设计、实施。
-      - 从测试转为开发，两年软件开发经验，主导产品的的自动化构建、发布、DevOps基础设施建设，了解软件产品的生命周期。
-      - 熟悉整个产品测试，研发，构建、发布流程，包括自动化测试、持续集成，制品工具类的选择，部署和集成经验。
-      - 有多种类型以及多个平台的构建和继续集成经验，包括系统应用、网络应用。
+      - 九年软件测试经验，曾在东软、京东商城、Rocket Software 从事软件测试，自动化测试和性能测试测试。负责产品的自动化设计、实施和集成。
+      - 有持久的学习热情和学习能力，从测试转为开发，主导产品的的自动化构建、发布、DevOps 基础设施建设，帮助开发解决开发中的痛点。
+      - 了解整个软件生命周期，熟悉产品测试，研发，构建、发布流程，DevOps工具类的选择，精通持续集成。
+      - 有多种类型以及多个平台的构建和持续集成经验，包括系统应用、网络应用。
 
 education:
     - degree: 软件技术学士
@@ -60,25 +60,28 @@ education:
       details: |
 
 experiences:
-    - role: Build&DevOps工程师
+    - role: DevOps | Build Engineer
       time: 2018 - Present
       company: Rocket Software, 大连
       details: |
-        Rocket Software Multi-Value 构建工程师， 负责 MV Server 团队所有产品(UV, UD, UCC, UNDK)的构建工作，负责产品的自动化构建的规划、工具类的选择和代码及 Pipeline 实施。
+        Rocket Software Multi-Value 产品构建工程师， 负责 MV Server 团队所有产品(UV, UD, UCC, UNDK)的构建工作，负责产品的自动化构建的规划、工具类的选择和代码及 Pipeline 实施。
 
-          - 负责并参与 MV Server 的每年规划会议、DevOps规划以及工作流程制定和优化。
-          - 负责所有Git仓库的分支策略制定和维护。
-          - 负责MV Server 团队的 Jenkins Shared Libraries 开发、维护，为其他团队提供重用代码。
-          - 负责产品安全，License等工具类集成，开发环境的搭建、技术招聘等等。
+          - 负责所有 Git 仓库的维护和分支策略制定。
+          - 负责所有平台（Win, Lin, AIX, HPUX, Solaris SPACR, Solaris x86）构建机器的维护, Jenkins, Bamboo, Artifactory 的管理，维护，备份。
+          - 向客户交付高质量的 GA release, Diagnostic release, Custom release, Hotfix, Alpha, Beta testing package, PE release 版本。
+          - 向客户交付正确的产品构建（正确的修复程序，没有法律问题，无病毒，正确的文档，Escrow，Codesign）。
+          - 负责发展并倡导 DevOps 最佳实践。培训开发、测试如何使用 Git，Jenkins，Bamboo，Artifactory 使用并在Wiki中很好地进行组织文档。
+          - 作为 key stakeholder 参与 MV Server 的每年规划会议、制定 DevOps 规划以及工作流程优化。
 
-    - role: 测试开发工程师
-      time: 2014 - 2018
+    - role: Software Engineer In Test
+      time: 2015 - 2018
       company: Rocket Software, 大连
       details: |
         作为 Rocket Discover 测试自动化带头人，带领测试团队的自动化测试脚本研发，负责自动化测试框架的选择、部署以及代码实现。
 
-          - 负责并参与 Rocket Discover 自动化测试用例设计、公共类的定义以及开发流程制定。
-          - 负责搭建和维护自动化测试仓库、测试技术招聘、新人培训等。
+          - 负责并参与 Rocket Discover 自动化测试用例设计、自动化框架选择，部署以及开发流程制定。
+          - 负责 Rocket Discover 性能自动化测试用例设计，性能脚本的录制和编写。
+          - 负责自动化测试、性能测试与 Jenkins 集成，维护测试的相关 Git 仓库、测试技术招聘、新人培训。
 
     - role: 软件测试工程师
       time: 2012 - 2014
@@ -86,8 +89,7 @@ experiences:
       details: |
         作为京东商城财务组的核心测试工程师，帮助测试团队从零开始设计自动化测试，负责自动测试的开发和维护。
 
-          - 维护京东财务 POS 系统的测试和自动化测试脚本的开发。
-          - 负责自动化脚本的持续集成。
+          - 负责京东财务相关系统的功能测试，自动化测试脚本的开发以及与 CI 工具集成。
 
 projects:
     title: 项目
@@ -97,23 +99,23 @@ projects:
     assignments:
       - title: 个人博客
         link: "https://shenxianpeng.github.io/"
-        tagline: "记录和分享在工作中遇到的问题和解决办法，记录和分享工作中好的实践。"
+        tagline: "记录和分享在工作中遇到的问题和解决办法，分享工作中的实践。"
 
       - title: 个人博客小程序
-        link: "微信小程序ID：HelloWorldPro"
-        tagline: "个人博客的微信小程序版，为了学习如何开发和发布一个微信小程序二创建。"
+        link: "#"
+        tagline: "个人博客的微信小程序版(ID:HelloWorldPro)，为了学习如何开发和发布一个微信小程序而创建的。"
 
       - title: MV Intelligent Terminal
         link: "#"
-        tagline: "提出并利用 Python 和 MV UOPY API 为 MV 产品创建智能命令行。此项目获得 Rocket Build 一等奖和 CPO 双项大奖。"
+        tagline: "提出并实施利用 Python, MV UOPY API 为 MV 产品创建智能命令行。此项目包揽 Rocket Build 一等奖和 CPO 双项大奖。"
 
       - title: JST-automation
         link: "https://github.com/shenxianpeng/JST-automation"
-        tagline: "使用 Java Selenium TestNG 实施的一个自动化测试框架。"
+        tagline: "在做自动化测试过程中，使用 Java Selenium TestNG 实施的一个自动化测试框架示例。"
 
       - title: nightwatch-e2e
         link: "https://github.com/nightwatchjs-cn/nightwatch-e2e"
-        tagline: "使用 Javascript 技术栈里最流行的自动化测试框架之一 nightwatch 设计的架构和编写的自动化测试实例，并集成 CircleCI, Travis, Code Quality。"
+        tagline: "在使用 Javascript 做自动化测试过程中，使用 NightwatchJs 实施的一个自动的概念化测试框架示例，并集成 CircleCI, Travis, Code Quality。"
 
 skills:
     title: 技能 &amp; 专业
@@ -138,7 +140,7 @@ skills:
         level: 70%
 
       - name: Java & Python
-        level: 70%
+        level: 65%
       - name: Javascript & C
-        level: 55%
+        level: 60%
 
