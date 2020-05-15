@@ -96,7 +96,7 @@ projects:
       在工作中和工作外开发的独立项目。
 
     assignments:
-       - title: MV Intelligent Terminal
+      - title: MV Intelligent Terminal
         link: "#"
         tagline: "提出并实施利用 Python, MV UOPY API 为 MV 产品创建智能命令行。该项目包揽 Rocket Build 一等奖和 CPO 双项大奖。"
 
