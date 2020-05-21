@@ -8,7 +8,7 @@ sidebar:
 
     # Profile information
     name: 沈显鹏
-    tagline: DevOps工程师
+    tagline: 测试开发工程师
     avatar: profile.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
@@ -43,9 +43,9 @@ sidebar:
 career-profile:
     title: 个人总结
     summary: |
-      - 九年软件测试经验，曾在东软、京东商城、Rocket Software 从事软件测试。负责过产品自动化测试和性能测试测试，包括自动化设计、实施和集成。
-      - 有持久的学习热情和学习能力，从测试转为开发，主导产品的的自动化构建、发布、DevOps 基础设施建设，帮助开发解决开发中的痛点。
-      - 了解整个软件生命周期，熟悉产品测试、研发、构建、发布流程、DevOps工具类的选择、多个平台的使用和构建，精通持续集成。
+      - 九年软件测试经验，曾在东软、京东商城、Rocket Software 从事软件测试。负责过产品自动化测试和性能测试测试设计、实施和集成。
+      - 有持久的学习热情和学习能力，因此从测试转为开发，主导产品的的自动化构建、发布、DevOps 基础设施建设，帮助开发解决开发中的痛点。
+      - 熟悉整个软件生命周期；掌握产品测试、研发、构建、发布流程、持续集成工具类的选择、多平台的使用和构建；精通持续集成。
 
 education:
     - degree: 自考软件技术学士
@@ -59,15 +59,15 @@ education:
       details: |
 
 experiences:
-    - role: Build | DevOps Engineer
+    - role: Software Engineer
       time: 2018 - Present
       company: Rocket Software, 大连
       details: |
-        作为 Multi-Value 产品的构建工程师， 负责 MV Server 团队所有产品（UniVerse, UniData, U2 Common Clients, U2 Toolkit for .NET）的构建和发布，CI/CD 规划，工具类的选择，代码实施。
+        作为 Multi-Value 产品的自动化构建工程师， 负责 MV Server 团队所有产品（UniVerse, UniData, U2 Common Clients, U2 Toolkit for .NET）的构建和发布，工具类的选择，CI/CD 设计，代码实施。
 
-          - 负责所有 Git 仓库的维护和分支策略制定。
-          - 负责所有平台（Win, Lin, AIX, HPUX, Solaris SPACR, Solaris x86）构建机器的维护, Jenkins, Bamboo, Artifactory 服务的搭建，管理，维护，备份。
-          - 向客户交付高质量的 GA release, Diagnostic release, Custom release, Hotfix, Alpha, Beta testing package, PE 等版本。
+          - 负责所有 Git 仓库的维护和分支策略的制定。
+          - 负责所有平台构建机器的维护（包括 Win, Lin, AIX, HPUX, Solaris SPACR, Solaris x86）, Jenkins, Bamboo, Artifactory 服务的搭建，配置，管理，备份。
+          - 向客户交付高质量的 GA release, Diagnostic release, Custom release, Hotfix, Alpha, Beta testing package, PE 等各版本构建。
           - 向客户交付正确的产品构建，包括正确的修复程序，没有法律问题，无病毒，正确的文档，Escrow，Codesign。
           - 负责工具调研，倡导 DevOps 最佳实践，培训开发、测试如何使用 Git，Jenkins，Bamboo，Artifactory 使用并在 Wiki 中组织使用文档。
           - 作为 Key Stakeholder 参与 MV Server 的每年规划会议、制定 DevOps 规划以及工作流程优化。
@@ -78,7 +78,7 @@ experiences:
       details: |
         作为 Rocket Discover 测试自动化带头人，带领测试团队从零开始设计自动化测试用例，自动化测试框架的选择、部署以及代码实现。
 
-          - 负责并参与 Rocket Discover 自动化测试用例设计、自动化框架选择，部署以及开发流程制定。
+          - 负责并参与 Rocket Discover 自动化测试用例设计、自动化框架选择，部署以及流程制定。
           - 负责并参与 Rocket Discover 性能自动化测试用例设计，性能脚本的录制和编写。
           - 负责自动化测试、性能测试与 Jenkins 集成，维护测试的相关 Git 仓库、测试技术招聘、新人培训。
 
@@ -102,7 +102,7 @@ projects:
 
       - title: JST-automation
         link: "https://github.com/shenxianpeng/JST-automation"
-        tagline: "在做自动化测试过程中，使用 Java, Selenium, TestNG 实施的一个自动化测试框架示例。"
+        tagline: "在做自动化测试过程中，使用 Java, Selenium, TestNG 实施的一个自动化测试框架示例，方便快速开展自动化测试。"
 
       - title: nightwatch-e2e
         link: "https://github.com/nightwatchjs-cn/nightwatch-e2e"
@@ -114,7 +114,7 @@ projects:
 
       - title: 个人博客微信小程序
         link: "#"
-        tagline: "个人博客的微信小程序版 (ID:HelloWorldPro)，为了学习如何开发和发布一个微信小程序而创建的。"
+        tagline: "个人博客的微信小程序版（小程序名称：HelloWorldPro），为了学习如何开发和发布一个微信小程序而创建的。"
 
 skills:
     title: 技能 &amp; 专业
@@ -135,11 +135,12 @@ skills:
       - name: Batch & Shell
         level: 80%
 
-      - name: Database
+      - name: Java & Python
         level: 70%
 
-      - name: Java & Python
-        level: 65%
       - name: Javascript & C
+        level: 60%
+
+      - name: Database
         level: 60%
 
