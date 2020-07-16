@@ -63,23 +63,23 @@ experiences:
       time: 2018 - Present
       company: Rocket Software, 大连
       details: |
-        作为 Multi-Value 产品的自动化构建工程师， 负责 MV Server 团队所有产品（UniVerse, UniData, U2 Common Clients, U2 Toolkit for .NET）的构建和发布，工具类的选择，CI/CD 设计，代码实施。
+        作为 Multi-Value 产品的开发工程师，负责产品的 CI/CD 基础设施和自动化流水线建设，为团队提供无人值守的自动化构建、安装服务，为团队提高开发效率，节省人力成本。
 
-          - 负责所有 Git 仓库的维护和分支策略的制定。
-          - 负责所有平台构建机器的维护（包括 Win, Lin, AIX, HPUX, Solaris SPACR, Solaris x86）, Jenkins, Bamboo, Artifactory 服务的搭建，配置，管理，备份。
-          - 向客户交付高质量的 GA release, Diagnostic release, Custom release, Hotfix, Alpha, Beta testing package, PE 等各版本构建。
-          - 向客户交付正确的产品构建，包括正确的修复程序，没有法律问题，无病毒，正确的文档，Escrow，Codesign。
-          - 负责工具调研，倡导 DevOps 最佳实践，培训开发、测试如何使用 Git，Jenkins，Bamboo，Artifactory 使用并在 Wiki 中组织使用文档。
-          - 作为 Key Stakeholder 参与 MV Server 的每年规划会议、制定 DevOps 规划以及工作流程优化。
+          - 负责 MV Server 团队所有产品（UniVerse, UniData, U2 Common Clients, U2 Toolkit for .NET）的构建、发布、Git 仓库的维护和分支策略、工具类选择、CI/CD 设计及实施。
+          - 维护所有平台(Windows, Linux, AIX, HPUX, Solaris SPACR, Solaris x86)构建机器，以及 Jenkins, Bamboo, Artifactory 服务的搭建，配置，管理，备份。
+          - 向客户交付高质量的 GA release, Diagnostic release, Custom release, Hotfix, Alpha, Beta testing package, PE 等各版本产品构建。
+          - 负责向客户交付正确的修复程序、没有法律问题、无病毒、正确的文档、Escrow、Codesign 的产品构建。
+          - 负责工具调研，倡导 DevOps 的最佳实践，并分享 Git，Jenkins，Bamboo，Artifactory 使用。
+          - 参加 MV 大连研发中心的年规划会议、制定 DevOps 规划以及工作流程优化。
 
     - role: Software Engineer In Test
       time: 2015 - 2018
       company: Rocket Software, 大连
       details: |
-        作为 Rocket Discover 测试自动化带头人，带领测试团队从零开始设计自动化测试用例，自动化测试框架的选择、部署以及代码实现。
+        作为 Rocket Discover 自动化测试带头人，带领测试团队从零开始开展自动化，提高回归测试效率。
 
-          - 负责并参与 Rocket Discover 自动化测试用例设计、自动化框架选择，部署以及流程制定。
-          - 负责并参与 Rocket Discover 性能自动化测试用例设计，性能脚本的录制和编写。
+          - 负责自动化框架选择，自动化测试用例设计以及流程制定。
+          - 负责性能自动化测试用例设计，性能脚本的录制和编写。
           - 负责自动化测试、性能测试与 Jenkins 集成，维护测试的相关 Git 仓库、测试技术招聘、新人培训。
 
     - role: 软件测试工程师
@@ -108,9 +108,9 @@ projects:
         link: "https://github.com/nightwatchjs-cn/nightwatch-e2e"
         tagline: "在使用 Javascript 做自动化测试过程中，使用 NightwatchJs 实施的一个自动化测试框架示例，并集成 CircleCI, Travis, Code Quality。"
 
-      - title: 个人博客
+      - title: 我的博客
         link: "https://shenxianpeng.github.io/"
-        tagline: "记录和分享在工作中遇到的问题，解决方法，实践。"
+        tagline: "记录和分享在工作中遇到的问题、解决方法以及学到的新知识。"
 
       - title: 个人博客微信小程序
         link: "#"
@@ -133,13 +133,16 @@ skills:
         level: 70%
 
       - name: Batch & Shell
+        level: 85%
+
+      - name: Python
         level: 80%
 
-      - name: Java & Python
-        level: 70%
-
-      - name: Javascript & C
+      - name: Golang
         level: 60%
+
+      - name: C & Javascript & Java
+        level: 50%
 
       - name: Database
         level: 60%
