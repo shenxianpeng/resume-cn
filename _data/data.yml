@@ -43,9 +43,9 @@ sidebar:
 career-profile:
     title: 个人总结
     summary: |
-      - 九年软件测试经验，曾在东软、京东商城、Rocket Software 从事软件测试。负责过产品自动化测试和性能测试测试设计、实施和集成。
-      - 有持久的学习热情和学习能力，因此从测试转为开发，主导产品的的自动化构建、发布、DevOps 基础设施建设，帮助开发解决开发中的痛点。
-      - 熟悉整个软件生命周期；掌握产品测试、研发、构建、发布流程、持续集成工具类的选择、多平台的使用和构建；精通持续集成。
+      - 曾在东软、京东商城、Rocket Software 从事软件测试，负责过产品自动化测试和性能测试测试设计、实施和集成。
+      - 有持久的学习热情和能力，从测试转为开发，建立产品的的自动化构建、发布、DevOps 基础设施，解决开发开发中的痛点。
+      - 熟悉产品测试、研发、构建、发布流程、持续集成工具类的选择、多平台的使用和构建；精通持续集成。
 
 education:
     - degree: 自考软件技术学士
@@ -63,14 +63,11 @@ experiences:
       time: 2018 - Present
       company: Rocket Software, 大连
       details: |
-        作为 Multi-Value 产品的开发工程师，负责产品的 CI/CD 基础设施和自动化流水线建设，为团队提供无人值守的自动化构建、安装服务，为团队提高开发效率，节省人力成本。
+        RocketSoftware Multi-Value 开发工程师，建立产品的自动化构建, CICD 流水线以及基础设施，为团队提供无人值守的自动化构建、安装，提高研发效率，节省人力成本。
 
-          - 负责 MV Server 团队所有产品（UniVerse, UniData, U2 Common Clients, U2 Toolkit for .NET）的构建、发布、Git 仓库的维护和分支策略、工具类选择、CI/CD 设计及实施。
-          - 维护所有平台(Windows, Linux, AIX, HPUX, Solaris SPACR, Solaris x86)构建机器，以及 Jenkins, Bamboo, Artifactory 服务的搭建，配置，管理，备份。
-          - 向客户交付高质量的 GA release, Diagnostic release, Custom release, Hotfix, Alpha, Beta testing package, PE 等各版本产品构建。
-          - 负责向客户交付正确的修复程序、没有法律问题、无病毒、正确的文档、Escrow、Codesign 的产品构建。
-          - 负责工具调研，倡导 DevOps 的最佳实践，并分享 Git，Jenkins，Bamboo，Artifactory 使用。
-          - 参加 MV 大连研发中心的年规划会议、制定 DevOps 规划以及工作流程优化。
+          - 通过建立 CI/CD，接管了 Multi-Value Server/Client 所有产品的构建、发布。保障向客户交付高质量的、没有法律问题、无病毒的产品构建。
+          - 主导 CI/CD 设计及实施,分支策略制定、工具类选择。倡导 DevOps 的最佳实践以及工作流程优化。并分享 Git，Jenkins，Bamboo，Artifactory 使用。
+          - 维护 Bitbucket, Jenkins, Bamboo, Artifactory 服务的搭建，配置，管理，备份以及多平台构建机器的维护（包括 Windows, Linux, AIX, HPUX, Solaris SPACR, Solaris x86）
 
     - role: Software Engineer In Test
       time: 2015 - 2018
@@ -78,15 +75,14 @@ experiences:
       details: |
         作为 Rocket Discover 自动化测试带头人，带领测试团队从零开始开展自动化，提高回归测试效率。
 
-          - 负责自动化框架选择，自动化测试用例设计以及流程制定。
-          - 负责性能自动化测试用例设计，性能脚本的录制和编写。
+          - 负责自动化框架选择，自动化测试用例设计以及流程制定以及性能自动化测试用例设计，性能脚本的录制和编写。
           - 负责自动化测试、性能测试与 Jenkins 集成，维护测试的相关 Git 仓库、测试技术招聘、新人培训。
 
     - role: 软件测试工程师
       time: 2012 - 2014
       company: 京东商城, 北京
       details: |
-        作为京东商城财务组的核心测试工程师，帮助测试团队设计自动化测试，负责自动测试的开发和维护。
+        京东商城财务组测试工程师，帮助测试团队设计自动化测试，负责自动测试的开发和维护。
 
           - 负责京东财务相关系统的功能测试，自动化测试脚本的开发以及与 CI 工具集成。
 
@@ -99,6 +95,10 @@ projects:
       - title: MV Intelligent Terminal
         link: "#"
         tagline: "提出并实施利用 Python, MV UOPY API 为 MV 产品创建智能命令行。该项目包揽 Rocket Build 一等奖和 CPO 双项大奖。"
+
+      - title: VitalSign
+        link: "#"
+        tagline: "通过分析 Bitbucket 历史信息在 Pull Request 创建时为开发推荐 Reviewer；在 Pull Request 合并后为测试推荐测试范围以及需要执行的自动化测试用例。"
 
       - title: JST-automation
         link: "https://github.com/shenxianpeng/JST-automation"
@@ -136,7 +136,7 @@ skills:
         level: 85%
 
       - name: Python
-        level: 80%
+        level: 85%
 
       - name: Golang
         level: 60%
