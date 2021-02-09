@@ -8,7 +8,7 @@ sidebar:
 
     # Profile information
     name: 沈显鹏
-    tagline: 测试开发工程师
+    tagline: DevOps 工程师
     avatar: profile.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
@@ -43,8 +43,8 @@ sidebar:
 career-profile:
     title: 个人总结
     summary: |
-      - 从事九年软件测试，曾在东软、京东商城、RocketSoftware担任测试，负责产品自动化测试和性能测试测试设计、编码和持续集成。
-      - 从测试转开发，主导产品的的自动化构建、发布、CI/CD及DevOps基础设施建设，解决开发开发中的痛点，优化工作流程。
+      - 从事 9 年软件测试，曾在东软、京东商城、RocketSoftware 担任测试，负责产品自动化测试和性能测试测试设计、编码和持续集成。
+      - 从测试转开发，主导产品的的自动化构建、发布、CI/CD 及 DevOps 基础设施建设，解决开发开发中的痛点，优化工作流程。
       - 熟悉软件生命周期，包括产品测试、研发、构建、发布等流程；有多平台使用和构建经验；精通持续集成。
 
 education:
@@ -59,15 +59,15 @@ education:
       details: |
 
 experiences:
-    - role: Software Engineer
+    - role: DevOps/Build Engineer
       time: 2018 - Present
       company: Rocket Software, 大连
       details: |
-        作为Multi-Value产品的开发工程师，负责产品DevOps基础设施建设，为团队提供无人值守的自动化构建、安装服务，为团队提高开发效率，节省人力成本。
+        作为 Multi-Value 产品的构建工程师，负责产品 DevOps 基础设施建设，为团队提供无人值守的自动化构建、安装服务，为团队提高开发效率，节省人力成本。
 
           - 通过建立 CI/CD Pipeline，接管了 Multi-Value Server/Client 所有产品的构建、发布，保障向客户交付高质量的、没有法律问题、无病毒的产品构建。
-          - 主导 CI/CD 设计及实施，Git维护和分支策略制定、工具类选择，倡导 DevOps 的最佳实践以及工作流程优化，分享 Git，Jenkins，Bamboo，Artifactory 使用。
-          - 负责Jenkins, Bamboo, Artifactory服务的搭建，配置，管理，备份，以及创建和维护所有平台(Windows, Linux, AIX, HPUX, Solaris SPACR, Solaris x86)构建机器。
+          - 主导 CI/CD 设计及实施，Git 维护和分支策略制定、工具类选择，倡导 DevOps 的最佳实践以及工作流程优化，分享 Git，Jenkins，Bamboo，Artifactory 使用。
+          - 负责 Jenkins, Bamboo, Artifactory 服务的搭建，配置，管理，备份，以及创建和维护所有平台 (Windows, Linux, AIX, HPUX, Solaris SPACR, Solaris x86) 构建机器。
 
     - role: Software Engineer In Test
       time: 2015 - 2018
@@ -76,7 +76,7 @@ experiences:
         作为 Rocket Discover 自动化测试带头人，带领测试团队从零开始开展自动化，提高回归测试效率。
 
           - 负责自动化框架选择，自动化测试用例设计以及流程制定以及性能自动化测试用例设计，性能脚本的录制和编写。
-          - 负责自动化测试、性能测试与Jenkins集成，维护测试的相关Git仓库、测试技术招聘、新人培训。
+          - 负责自动化测试、性能测试与 Jenkins 集成，维护测试的相关 Git 仓库、测试技术招聘、新人培训。
 
     - role: 软件测试工程师
       time: 2012 - 2014
@@ -84,7 +84,7 @@ experiences:
       details: |
         京东商城财务组测试工程师，帮助测试团队设计自动化测试，负责自动测试的开发和维护。
 
-          - 负责京东财务相关系统的功能测试，自动化测试脚本的开发以及与CI工具集成。
+          - 负责京东财务相关系统的功能测试，自动化测试脚本的开发以及与 CI 工具集成。
 
 projects:
     title: 项目
@@ -96,9 +96,9 @@ projects:
         link: "#"
         tagline: "提出并实施利用 Python, MV UOPY API 为 MV 产品创建智能命令行。该项目包揽 Rocket Build 一等奖和 CPO 双项大奖。"
 
-      - title: VitalSign
-        link: "#"
-        tagline: "通过分析 Bitbucket 历史信息在 Pull Request 创建时为开发推荐 Reviewer；在 Pull Request 合并后为测试推荐测试范围以及需要执行的自动化测试用例。"
+      - title: Atlassian REST API Python Wrapper
+        link: "https://pypi.org/project/atlassian-api-py/"
+        tagline: "独立开发，使用 Python 编写的 Atlassian Rest API 库，方便与 JIRA, Bitbucket 做集成。"
 
       - title: JST-automation
         link: "https://github.com/shenxianpeng/JST-automation"
@@ -110,11 +110,11 @@ projects:
 
       - title: 我的博客
         link: "https://shenxianpeng.github.io/"
-        tagline: "记录和分享在工作中遇到的问题、解决方法以及学到的新知识。"
+        tagline: "记录和分享在工作中遇到的问题、解决方法以及学到的新知识。以及微信小程序「HelloWorldPro」是该博客的小程序版本。"
 
-      - title: 个人博客微信小程序
+      - title: 个人微信公众号「DevOps攻城狮」
         link: "#"
-        tagline: "个人博客的微信小程序版（小程序名称：HelloWorldPro），为了学习如何开发和发布一个微信小程序而创建的。"
+        tagline: "专注于 DevOps 领域的知识分享。"
 
 skills:
     title: 技能 &amp; 专业
@@ -123,27 +123,20 @@ skills:
       - name: 持续集成
         level: 95%
 
-      - name: 自动化测试
-        level: 95%
-
       - name: DevOps
-        level: 85%
+        level: 90%
+
+      - name: 自动化测试
+        level: 90%
 
       - name: Batch & Shell
-        level: 85%
+        level: 90%
 
       - name: Python
-        level: 85%
-
-      - name: 性能测试
-        level: 70%
+        level: 90%
 
       - name: Golang
         level: 60%
 
-      - name: C & Javascript & Java
+      - name: C & Java
         level: 50%
-
-      - name: Database
-        level: 60%
-
