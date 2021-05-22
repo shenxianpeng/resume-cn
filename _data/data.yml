@@ -43,12 +43,11 @@ sidebar:
 career-profile:
     title: 个人总结
     summary: |
-      - 从事 9 年软件测试，曾在东软、京东商城、RocketSoftware 担任测试，负责产品自动化测试和性能测试测试设计、编码和持续集成。
-      - 从测试转开发，主导产品的的自动化构建、发布、CI/CD 及 DevOps 基础设施建设，解决开发开发中的痛点，优化工作流程。
-      - 熟悉软件生命周期，包括产品测试、研发、构建、发布等流程；有多平台使用和构建经验；精通持续集成。
+      - 有多年的软件自动化测试，编码和持续集成经验。从2018年开始负责和主导MV产品的自动化构建、发布、CI/CD 流水线等基础设施建设，优化开发流程。
+      - 精通持续集成；熟练使用 Git，Jenkins，Artifactory 等工具。主要编程语言为：Shell，Python，Groovy。
 
 education:
-    - degree: 自考软件技术学士
+    - degree: 软件技术学士（自考）
       university: 东北大学
       time: 2008 - 2010
       details: |
@@ -59,21 +58,21 @@ education:
       details: |
 
 experiences:
-    - role: DevOps/Build Engineer
+    - role: Software Engineer
       time: 2018 - Present
       company: Rocket Software, 大连
       details: |
-        作为 Multi-Value 产品的构建工程师，负责产品 DevOps 基础设施建设，为团队提供无人值守的自动化构建、安装服务，为团队提高开发效率，节省人力成本。
+        负责 Multi-Value 产品的构建，建立 CI/CD Pipeline，为团队提供无人值守的自动化构建、安装、扫描、测试等服务。提高团队研发效率和质量。
 
-          - 通过建立 CI/CD Pipeline，接管了 Multi-Value Server/Client 所有产品的构建、发布，保障向客户交付高质量的、没有法律问题、无病毒的产品构建。
-          - 主导 CI/CD 设计及实施，Git 维护和分支策略制定、工具类选择，倡导 DevOps 的最佳实践以及工作流程优化，分享 Git，Jenkins，Bamboo，Artifactory 使用。
-          - 负责 Jenkins, Bamboo, Artifactory 服务的搭建，配置，管理，备份，以及创建和维护所有平台 (Windows, Linux, AIX, HPUX, Solaris SPACR, Solaris x86) 构建机器。
+          - 通过建立 CI/CD Pipeline 实现所有产品的构建、发布的统一性，保障交付高质量、没有法律风险的产品。
+          - 主导 CI/CD 设计及实施、制定Git分支策略和最佳实现、倡导并推荐最佳实践以及优化工作流程。
+          - 负责基础设施（Jenkins, Bamboo, Artifactory以及VM）的搭建，配置，管理，备份，以及自动化维护。
 
     - role: Software Engineer In Test
       time: 2015 - 2018
       company: Rocket Software, 大连
       details: |
-        作为 Rocket Discover 自动化测试带头人，带领测试团队从零开始开展自动化，提高回归测试效率。
+        Rocket Discover 自动化测试带头人，带领测试团队从零开展自动化测试，提高回归测试效率。
 
           - 负责自动化框架选择，自动化测试用例设计以及流程制定以及性能自动化测试用例设计，性能脚本的录制和编写。
           - 负责自动化测试、性能测试与 Jenkins 集成，维护测试的相关 Git 仓库、测试技术招聘、新人培训。
@@ -86,6 +85,15 @@ experiences:
 
           - 负责京东财务相关系统的功能测试，自动化测试脚本的开发以及与 CI 工具集成。
 
+    - role: 软件测试工程师
+      time: 2011 - 2011
+      company: 东软集团, 北京
+      details: |
+        软件测试，负责过两个大型项目的软件测试工作。
+
+          - 外汇管理局，该项目整个团队大概100人，测试团队有20人左右，该项目采用 CMMI3 软件进行管理，负责用例编写和功能测试。
+          - 中移动云平台，负责云平台里虚拟机管理测试用例编写和功能测试。
+
 projects:
     title: 项目
     intro: >
@@ -96,17 +104,21 @@ projects:
         link: "#"
         tagline: "提出并实施利用 Python, MV UOPY API 为 MV 产品创建智能命令行。该项目包揽 Rocket Build 一等奖和 CPO 双项大奖。"
 
-      - title: Atlassian REST API Python Wrapper
+      - title: MV VM Management with JIRA
+        link: "#"
+        tagline: "提出并实施利用现有系统JIRA，解决之前通过 Excel/Wiki 来管理虚拟机所带来的额外工作、对团队大量的虚拟机进行梳理，提供可视化的Dashboard。"
+
+      - title: atlassian-api-py
         link: "https://pypi.org/project/atlassian-api-py/"
-        tagline: "独立开发，使用 Python 编写的 Atlassian Rest API 库，方便与 JIRA, Bitbucket 做集成。"
+        tagline: "使用 Python 编写的 Atlassian Rest API 库，方便与 JIRA, Bitbucket 进行集成。"
 
       - title: JST-automation
         link: "https://github.com/shenxianpeng/JST-automation"
-        tagline: "在做自动化测试过程中，使用 Java, Selenium, TestNG 实施的一个自动化测试框架示例，方便快速开展自动化测试。"
+        tagline: "使用 Java, Selenium, TestNG 实施的一个自动化测试框架示例，方便快速搭建自动化测试框架。"
 
       - title: nightwatch-e2e
         link: "https://github.com/nightwatchjs-cn/nightwatch-e2e"
-        tagline: "在使用 Javascript 做自动化测试过程中，使用 NightwatchJs 实施的一个自动化测试框架示例，并集成 CircleCI, Travis, Code Quality。"
+        tagline: "使用 NightwatchJs 实施的一个自动化测试框架示例，并集成 CircleCI, Travis, Code Quality。"
 
       - title: 我的博客
         link: "https://shenxianpeng.github.io/"
