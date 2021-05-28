@@ -43,8 +43,8 @@ sidebar:
 career-profile:
     title: 个人总结
     summary: |
-      - 有多年的软件自动化测试，编码和持续集成经验。从2018年开始负责和主导MV产品的自动化构建、发布、CI/CD 流水线等基础设施建设，优化开发流程。
-      - 精通持续集成；熟练使用 Git，Jenkins，Artifactory 等工具。主要编程语言为：Shell，Python，Groovy。
+      - 多年软件自动化测试，编码和持续集成经验。负责Rocket Software MultiValue数据库产品的自动化构建、发布、CI/CD 流水线规划、设计和设施。
+      - 熟悉研发、测试、构建、发布流程。精通持续集成；熟练使用 Git，Jenkins，Artifactory 等工具。
 
 education:
     - degree: 软件技术学士（自考）
@@ -58,17 +58,18 @@ education:
       details: |
 
 experiences:
-    - role: Software Engineer
+    - role: DevOps工程师
       time: 2018 - Present
       company: Rocket Software, 大连
       details: |
-        负责 Multi-Value 产品的构建，建立 CI/CD Pipeline，为团队提供无人值守的自动化构建、安装、扫描、测试等服务。提高团队研发效率和质量。
+        作为Rocket Software MultiValue的DevOps工程师，负责产品的DevOps规划、建立DevOps流水线。
+        
+          - 为团队提供无人值守的自动化构建、安装、扫描、测试等服务，从而提高团队研发效率和质量。
+          - 建立DevOps流水线，实现所有产品的构建、发布的统一性，保障交付高质量、没有法律风险的产品。
+          - 主导流水线设计及实施、制定Git分支策略和最佳实现、倡导并推荐最佳实践以及优化工作流程。
+          - 负责基础设施，包括Jenkins, Bamboo, Artifactory以及VM的搭建，配置，管理，备份，自动化维护等等。
 
-          - 通过建立 CI/CD Pipeline 实现所有产品的构建、发布的统一性，保障交付高质量、没有法律风险的产品。
-          - 主导 CI/CD 设计及实施、制定Git分支策略和最佳实现、倡导并推荐最佳实践以及优化工作流程。
-          - 负责基础设施（Jenkins, Bamboo, Artifactory以及VM）的搭建，配置，管理，备份，以及自动化维护。
-
-    - role: Software Engineer In Test
+    - role: 开发测试工程师
       time: 2015 - 2018
       company: Rocket Software, 大连
       details: |
@@ -100,13 +101,17 @@ projects:
       在工作中和工作外开发的独立项目。
 
     assignments:
+      - title: Quality Gate
+        link: "#"
+        tagline: "Quality Gates是将编码规范、安全扫描、代码分析、Git Squash等功能集成到Pull Reuqest中从而帮助团队提高编码规范和代码质量。该项目进入到Rocket Bulid第二轮（决赛）。"
+
       - title: MV Intelligent Terminal
         link: "#"
-        tagline: "提出并实施利用 Python, MV UOPY API 为 MV 产品创建智能命令行。该项目包揽 Rocket Build 一等奖和 CPO 双项大奖。"
+        tagline: "通过MV UOPY API为MV产品创建智能命令行，包括自动补全，高亮显示。此项目获得2019年Rocket Build大连赛区的一等奖和CPO双项奖。"
 
       - title: MV VM Management with JIRA
         link: "#"
-        tagline: "提出并实施利用现有系统JIRA，解决之前通过 Excel/Wiki 来管理虚拟机所带来的额外工作、对团队大量的虚拟机进行梳理，提供可视化的Dashboard。"
+        tagline: "利用现有系统JIRA，解决通过Excel/Wiki来管理虚拟机所带来的额外工作、帮助团队对大量虚拟机进行梳理和管理，提供可视化的Dashboard。"
 
       - title: atlassian-api-py
         link: "https://pypi.org/project/atlassian-api-py/"
@@ -147,8 +152,5 @@ skills:
       - name: Python
         level: 90%
 
-      - name: Golang
-        level: 60%
-
-      - name: C & Java
+      - name: C & Java & Golang
         level: 50%
