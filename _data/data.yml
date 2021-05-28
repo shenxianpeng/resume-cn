@@ -146,11 +146,11 @@ skills:
       - name: 自动化测试
         level: 90%
 
-      - name: Batch & Shell
-        level: 90%
-
       - name: Python
         level: 90%
 
-      - name: C & Java & Golang
+      - name: Batch & Shell
+        level: 90%
+
+      - name: C & Golang
         level: 50%
