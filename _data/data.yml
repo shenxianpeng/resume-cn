@@ -8,7 +8,7 @@ sidebar:
 
     # Profile information
     name: 沈显鹏
-    tagline: DevOps 工程师
+    tagline: DevOps工程师
     avatar: profile.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
@@ -62,12 +62,12 @@ experiences:
       time: 2018 - Present
       company: Rocket Software, 大连
       details: |
-        作为Rocket Software MultiValue的DevOps工程师，负责产品的DevOps规划、建立DevOps流水线。
+        作为 Rocket Software MultiValue 的 DevOps工程师，负责产品的 DevOps 规划、建立 DevOps 流水线。
         
           - 为团队提供无人值守的自动化构建、安装、扫描、测试等服务，从而提高团队研发效率和质量。
           - 建立DevOps流水线，实现所有产品的构建、发布的统一性，保障交付高质量、没有法律风险的产品。
-          - 主导流水线设计及实施、制定Git分支策略和最佳实现、倡导并推荐最佳实践以及优化工作流程。
-          - 负责基础设施，包括Jenkins, Bamboo, Artifactory以及VM的搭建，配置，管理，备份，自动化维护等等。
+          - 主导流水线设计及实施、制定 Git 分支策略和最佳实现、倡导并推荐最佳实践以及优化工作流程。
+          - 负责基础设施，包括 Jenkins, Bamboo, Artifactory 以及虚拟机搭建，配置，管理，备份，自动化维护等等。
 
     - role: 开发测试工程师
       time: 2015 - 2018
@@ -103,15 +103,15 @@ projects:
     assignments:
       - title: Quality Gate
         link: "#"
-        tagline: "Quality Gates是将编码规范、安全扫描、代码分析、Git Squash等功能集成到Pull Reuqest中从而帮助团队提高编码规范和代码质量。该项目进入到Rocket Bulid第二轮（决赛）。"
+        tagline: "Quality Gates 是将编码规范、安全扫描、代码分析、Git Squash 等功能集成到 Pull Reuqest 中从而帮助团队提高编码规范和代码质量。该项目进入到 Rocket Bulid 第二轮（决赛）。"
 
       - title: MV Intelligent Terminal
         link: "#"
-        tagline: "通过MV UOPY API为MV产品创建智能命令行，包括自动补全，高亮显示。此项目获得2019年Rocket Build大连赛区的一等奖和CPO双项奖。"
+        tagline: "通过 MV UOPY API 为 MV 产品创建智能命令行，包括自动补全，高亮显示。此项目获得 2019 年 Rocket Build 大连赛区的一等奖和CPO双项奖。"
 
       - title: MV VM Management with JIRA
         link: "#"
-        tagline: "利用现有系统JIRA，解决通过Excel/Wiki来管理虚拟机所带来的额外工作、帮助团队对大量虚拟机进行梳理和管理，提供可视化的Dashboard。"
+        tagline: "利用现有系统 JIRA，解决通过 Excel/Wiki 来管理虚拟机所带来的额外工作、帮助团队对大量虚拟机进行梳理和管理，提供可视化的 Dashboard。"
 
       - title: atlassian-api-py
         link: "https://pypi.org/project/atlassian-api-py/"
@@ -131,7 +131,7 @@ projects:
 
       - title: 个人微信公众号「DevOps攻城狮」
         link: "#"
-        tagline: "专注于 DevOps 领域的知识分享。"
+        tagline: "专注于DevOps领域的知识分享。"
 
 skills:
     title: 技能 &amp; 专业
