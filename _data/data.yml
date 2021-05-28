@@ -102,15 +102,15 @@ projects:
 
     assignments:
       - title: Quality Gate
-        link: "#"
+        link:
         tagline: "Quality Gates是将编码规范、安全扫描、代码分析、Git Squash等功能集成到Pull Reuqest中从而帮助团队提高编码规范和代码质量。该项目进入到Rocket Bulid第二轮（决赛）。"
 
       - title: MV Intelligent Terminal
-        link: "#"
+        link:
         tagline: "通过MV UOPY API为MV产品创建智能命令行，包括自动补全，高亮显示。此项目获得2019年Rocket Build大连赛区的第一名和CPO双项奖。"
 
       - title: MV VM Management with JIRA
-        link: "#"
+        link:
         tagline: "利用现有系统JIRA，解决通过Excel/Wiki来管理虚拟机所带来的额外工作、帮助团队对大量虚拟机进行梳理和管理，提供可视化的Dashboard。"
 
       - title: atlassian-api-py
@@ -130,7 +130,7 @@ projects:
         tagline: "记录和分享在工作中遇到的问题、解决方法以及学到的新知识。以及微信小程序「HelloWorldPro」是该博客的小程序版本。"
 
       - title: 个人微信公众号「DevOps攻城狮」
-        link: "#"
+        link:
         tagline: "专注于DevOps领域的知识分享。"
 
 skills:
