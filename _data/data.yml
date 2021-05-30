@@ -44,7 +44,7 @@ sidebar:
 career-profile:
     title: 个人总结
     summary: |
-      - 多年自动化测试开发和持续集成经验。负责RocketSoftware MultiValue(MV)数据库产品自动化构建、发布、DevOps流水线规划、设计和设施。
+      - 九年自动化测试开发和持续集成经验。负责RocketSoftware MultiValue(MV)数据库产品自动化构建、发布、DevOps流水线规划、设计和设施。
       - 熟悉研发、测试、构建、发布流程；熟练使用DevOps工具，如Bitbucket，GitHub，Jenkins，Artifactory，Ansible，Polaris，BlackDuck，SonarQube等。
       - 维护和管理包含Windows/Linux/Unix系统的构建环境，以及持续集成。
 
@@ -84,15 +84,16 @@ experiences:
       time: 2012 - 2014
       company: 京东商城, 北京
       details: |
-        京东商城财务组测试工程师，帮助测试团队设计自动化测试，负责自动测试的开发和维护。
+          京东测试工程师，见证京东的成长。
 
-          - 负责京东财务相关系统的功能测试，自动化测试脚本的开发以及与持续集成。
+          - 负责京东财务组多个系统的功能测试，自动化测试脚本的开发，集成和维护。
+          - 有互联网行业从业经历，了解电商业务。
 
     - role: 软件测试工程师
       time: 2011 - 2011
       company: 东软集团, 北京
       details: |
-        软件测试，负责过两个大型项目的软件测试工作。
+        软件测试，历经过两个大型项目的软件测试工作。
 
           - 外汇管理局，该项目整个团队大概100人，测试团队有20人左右，该项目采用CMMI3软件进行管理，负责用例编写和功能测试。
           - 中移动云平台，负责云平台里虚拟机管理测试用例编写和功能测试。
