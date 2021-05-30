@@ -69,7 +69,7 @@ experiences:
           - 为团队提供无人值守的自动化构建、安装、扫描、测试等服务，从而提高团队研发效率和质量。
           - 建立DevOps流水线，实现所有产品的构建、发布的统一性，保障交付高质量、没有法律风险的产品。
           - 主导流水线设计及实施、制定Git分支策略和最佳实现、倡导并推荐最佳实践以及优化工作流程。
-          - 负责基础设施，包括Jenkins, Bamboo, Artifactory以及虚拟机搭建，配置，管理，备份，自动化维护等等。
+          - 负责基础设施，包括Jenkins, Bamboo, Artifactory以及虚拟机搭建，配置，管理，备份，自动化维护。
 
     - role: 测试开发工程师
       time: 2015 - 2018
@@ -106,11 +106,11 @@ projects:
 
       - title: atlassian-api-py
         link: "https://pypi.org/project/atlassian-api-py/"
-        tagline: "使用Python编写的Atlassian Rest API库，方便与JIRA, Bitbucket进行集成。"
+        tagline: "使用Python编写的Atlassian Rest API库，方便与JIRA, Bitbucket进行持续集成。"
 
       - title: JST-automation
         link: "https://github.com/shenxianpeng/JST-automation"
-        tagline: "使用Java, Selenium, TestNG实施的一个自动化测试框架示例，方便快速搭建自动化测试框架。"
+        tagline: "使用Java, Selenium, TestNG实施的一个自动化测试框架示例，方便快速搭建Web自动化测试框架。"
 
       - title: nightwatch-e2e
         link: "https://github.com/nightwatchjs-cn/nightwatch-e2e"
@@ -118,19 +118,22 @@ projects:
 
       - title: Quality Gate
         link:
-        tagline: "Quality Gates是将编码规范、安全扫描、代码分析、Git Squash等功能集成到Pull Reuqest中从而帮助团队提高编码规范和代码质量。该项目进入到Rocket Bulid第二轮（决赛）。"
+        tagline: "Quality Gates是将编码规范、安全扫描、代码分析、Git Squash等功能集成到Pull Reuqest中从而帮助团队提高编码规范和代码质量。此项目入围2021年Rocket Bulid决赛。"
 
       - title: MV Intelligent Terminal
         link:
-        tagline: "通过MV UOPY API为MV产品创建智能命令行，包括自动补全，高亮显示。此项目获得2019年Rocket Build大连赛区的第一名和CPO双项奖。"
+        tagline: "通过MV UOPY API为MV产品创建智能命令行，包括自动补全，高亮显示。此项目获得2019年Rocket Build第一名和CPO双项大奖。"
 
       - title: MV VM Management with JIRA
         link:
         tagline: "利用现有系统JIRA，解决通过Excel/Wiki来管理虚拟机所带来的额外工作、帮助团队对大量虚拟机进行梳理和管理，提供可视化的Dashboard。"
 
-      - title: 个人微信公众号「DevOps攻城狮」，小程序「HelloWorldPro」
+      - title: 微信公众号「DevOps攻城狮」
         link: "https://shenxianpeng.github.io/about/"
         tagline: "记录和分享在工作中遇到的问题、解决方法以及学到的新知识，专注于DevOps领域的知识分享。"
+
+      - title: 微信小程序「HelloWorldPro」
+        tagline: "这是我的博客(shenxianpeng.github.io)的微信小程序版，用来学习微信小程序开发和发布。"
 
 skills:
     title: 技能 &amp; 专业
