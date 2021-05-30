@@ -44,8 +44,9 @@ sidebar:
 career-profile:
     title: 个人总结
     summary: |
-      - 多年软件自动化测试，编码和持续集成经验。负责Rocket Software MultiValue数据库产品的自动化构建、发布、DevOps流水线规划、设计和设施。
-      - 熟悉研发、测试、构建、发布流程；熟练掌握Git，Jenkins，Artifactory等工具；精通持续集成。
+      - 多年自动化测试开发和持续集成经验。负责RocketSoftware MultiValue数据库产品自动化构建、发布、DevOps流水线规划、设计和设施。
+      - 熟悉研发、测试、构建、发布流程；熟练使用DevOps工具，如Bitbucket，GitHub，Jenkins，Artifactory，Ansible等。
+      - 维护和管理包含Windows/Linux/Unix系统的构建环境，以及持续集成。
 
 education:
     - degree: 软件技术学士（自考）
@@ -70,7 +71,7 @@ experiences:
           - 主导流水线设计及实施、制定Git分支策略和最佳实现、倡导并推荐最佳实践以及优化工作流程。
           - 负责基础设施，包括Jenkins, Bamboo, Artifactory以及虚拟机搭建，配置，管理，备份，自动化维护等等。
 
-    - role: 开发测试工程师
+    - role: 测试开发工程师
       time: 2015 - 2018
       company: Rocket Software, 大连
       details: |
