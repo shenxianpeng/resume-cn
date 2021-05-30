@@ -44,8 +44,8 @@ sidebar:
 career-profile:
     title: 个人总结
     summary: |
-      - 多年自动化测试开发和持续集成经验。负责RocketSoftware MultiValue数据库产品自动化构建、发布、DevOps流水线规划、设计和设施。
-      - 熟悉研发、测试、构建、发布流程；熟练使用DevOps工具，如Bitbucket，GitHub，Jenkins，Artifactory，Ansible等。
+      - 多年自动化测试开发和持续集成经验。负责RocketSoftware MultiValue(MV)数据库产品自动化构建、发布、DevOps流水线规划、设计和设施。
+      - 熟悉研发、测试、构建、发布流程；熟练使用DevOps工具，如Bitbucket，GitHub，Jenkins，Artifactory，Ansible，Polaris，BlackDuck，SonarQube等。
       - 维护和管理包含Windows/Linux/Unix系统的构建环境，以及持续集成。
 
 education:
@@ -64,9 +64,9 @@ experiences:
       time: 2018 - Present
       company: Rocket Software, 大连
       details: |
-        作为Rocket Software MultiValue的DevOps工程师，负责产品的DevOps规划、建立DevOps流水线。
+        作为RocketSoftware MV的DevOps工程师，负责产品的DevOps规划、建立DevOps流水线。
         
-          - 为团队提供无人值守的自动化构建、安装、扫描、测试等服务，从而提高团队研发效率和质量。
+          - 为团队提供无人值守的自动化构建、安装、扫描、测试等服务，提高团队研发效率和质量。
           - 建立DevOps流水线，实现所有产品的构建、发布的统一性，保障交付高质量、没有法律风险的产品。
           - 主导流水线设计及实施、制定Git分支策略和最佳实现、倡导并推荐最佳实践以及优化工作流程。
           - 负责基础设施，包括Jenkins, Bamboo, Artifactory以及虚拟机搭建，配置，管理，备份，自动化维护。
@@ -86,7 +86,7 @@ experiences:
       details: |
         京东商城财务组测试工程师，帮助测试团队设计自动化测试，负责自动测试的开发和维护。
 
-          - 负责京东财务相关系统的功能测试，自动化测试脚本的开发以及与CI工具集成。
+          - 负责京东财务相关系统的功能测试，自动化测试脚本的开发以及与持续集成。
 
     - role: 软件测试工程师
       time: 2011 - 2011
@@ -106,19 +106,19 @@ projects:
 
       - title: atlassian-api-py
         link: "https://pypi.org/project/atlassian-api-py/"
-        tagline: "使用Python编写的Atlassian Rest API库，方便与JIRA, Bitbucket进行持续集成。"
+        tagline: "使用Python编写的Atlassian Rest API库，方便与Atlassian的Jira, Bitbucket进行持续集成。"
 
       - title: JST-automation
         link: "https://github.com/shenxianpeng/JST-automation"
-        tagline: "使用Java, Selenium, TestNG实施的一个自动化测试框架示例，方便快速搭建Web自动化测试框架。"
+        tagline: "使用Java, Selenium, TestNG实施的一个自动化测试框架示例，快速搭建Web自动化测试。"
 
       - title: nightwatch-e2e
         link: "https://github.com/nightwatchjs-cn/nightwatch-e2e"
-        tagline: "使用NightwatchJs实施的一个自动化测试框架示例，并集成CircleCI, Travis, SonarQube。"
+        tagline: "使用NightwatchJs实施的一个自动化测试框架示例，集成CircleCI, Travis, SonarQube，快速实施Web自动化测试。"
 
       - title: Quality Gate
         link:
-        tagline: "Quality Gates是将编码规范、安全扫描、代码分析、Git Squash等功能集成到Pull Reuqest中从而帮助团队提高编码规范和代码质量。此项目入围2021年Rocket Bulid决赛。"
+        tagline: "Quality Gates是将编码规范，安全扫描，代码分析，Git Squash等功能集成到Pull Reuqest中从而帮助团队提高编码规范和代码质量。此项目入围2021年Rocket Bulid决赛。"
 
       - title: MV Intelligent Terminal
         link:
@@ -126,7 +126,7 @@ projects:
 
       - title: MV VM Management with JIRA
         link:
-        tagline: "利用现有系统JIRA，解决通过Excel/Wiki来管理虚拟机所带来的额外工作、帮助团队对大量虚拟机进行梳理和管理，提供可视化的Dashboard。"
+        tagline: "利用现有系统Jira消除通过Excel/Wiki管理虚拟机所带来的额外工作，通过Jira提供可视化Dashboard和查询，帮助团队梳理和管理大量的虚拟机资源。"
 
       - title: 微信公众号「DevOps攻城狮」
         link: "https://shenxianpeng.github.io/about/"
