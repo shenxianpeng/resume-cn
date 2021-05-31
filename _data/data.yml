@@ -131,10 +131,10 @@ projects:
 
       - title: 微信公众号「DevOps攻城狮」
         link: "https://shenxianpeng.github.io/about/"
-        tagline: "记录和分享在工作中遇到的问题、解决方法以及学到的新知识，专注于DevOps领域的知识分享。"
+        tagline: "分享在工作中遇到的问题、解决方法以及学到的新知识，专注于DevOps领域的知识分享。"
 
       - title: 微信小程序「HelloWorldPro」
-        tagline: "这是我的博客(shenxianpeng.github.io)的微信小程序版，用来学习微信小程序开发和发布。"
+        tagline: "博客：shenxianpeng.github.io 的微信小程序版，用来学习微信小程序开发和发布。"
 
 skills:
     title: 技能 &amp; 专业
