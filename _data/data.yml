@@ -1,0 +1,180 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: True # set to False if you want education in main section instead of in sidebar
+
+    # Profile information
+    name: 沈显鹏
+    tagline: DevOps工程师
+    avatar: profile.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+    # Sidebar links
+    email: xianpeng.shen@gmail.com
+    phone: +86 18642690086
+    website: shenxianpeng.github.io
+    linkedin: xianpeng-shen
+    github: shenxianpeng
+    gitlab:
+    bitbucket:
+    twitter:
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    codewars:
+    goodreads: # Number-Username, e.g. 123456-alandoe
+
+    languages:
+      - idiom: 中文
+        level: 本地
+
+      - idiom: 英语
+        level: 良好
+
+    interests:
+      - item: 足球
+        link:
+
+      - item: 游泳
+        link:
+
+      - item: 写作
+        link:
+
+career-profile:
+    title: 个人总结
+    summary: |
+      - 做过近 10 年的软件测试，从测试转开发，目前在从事 Build/DevOps 相关工作。
+      - 目前负责 RocketSoftware MultiValue 数据库产品自动化构建、发布、DevOps 流水线的设计和设施，以及基础设施管理等工作。
+      - 熟悉 SDLC 以及 DevOps 工具，包括但不限于 Bitbucket，GitHub，Jenkins，Artifactory，Docker，Ansible，Polaris，BlackDuck，SonarQube，GCOV，JaCoCo 等。
+      - 日常主要开发语言是 Shell、Python、Go、Groovy 来完成一些 DevOps 的工作。
+      - 近五年一直在我的微信公众号《DevOps工程师》和[博客](https://shenxianpeng.github.io)上分享测试、CI/CD、DevOps 领域知识。
+      - 开源贡献者，创建并贡献 [cpp-linter](https://github.com/cpp-linter) Organization。
+
+education:
+    - degree: 软件技术学士（自考）
+      university: 东北大学
+      time: 2008 - 2010
+      details: |
+
+    - degree: 软件技术
+      university: 辽宁交通高等专科学校
+      time: 2006 - 2009
+      details: |
+
+experiences:
+    - role: DevOps工程师
+      time: 2018 - Present
+      company: Rocket Software, 大连
+      details: |
+        MultiValue 的 Build/DevOps 工程师，负责产品的构建和发布、基础设施管理，以及 DevOps 流水线的规划和实施。
+
+          - 规划和实施 DevOps 流水线，帮助团队实现无人值守的自动化构建、安装、安全扫描、测试等流水线，提高研发效率和质量。负责产品的构建和发布，确保交付高质量、没有法律风险的产品。
+          - 制定 Git 分支策略，管理 Git 分支，分享最佳实践以及优化工作流程。其中 Git 提交信息和分支规范已被应被用到整个 MultiValue 团队。
+          - 倡导并实践配置即代码（CaC），编写的 Jenkins Shared Library 多次在内部团队进行分享和并被 Fork。
+          - 在内部开源了多个我个人编写的仓库，包括 u2cicd, docker-images, ansible-playbook, u2box-cli, vmmj, atlassian-api-py。
+          - 熟悉 Code Coverage 工具的使用和集成，使用 GCOV/LCOV 帮助团队三十年来第一次得到了代码覆盖率指标。
+          - 通过不断的优化以及引入合理的 DevOps 工具、分享最佳实践，让团队在公司内保持 DevOps 的“引领”位置。
+
+    - role: 测试开发工程师
+      time: 2015 - 2018
+      company: Rocket Software, 大连
+      details: |
+        Rocket Discover 自动化测试带头人，带领测试团队从零开展自动化测试，提高回归测试效率。
+
+          - 负责自动化框架选择，自动化测试用例设计以及流程制定以及性能自动化测试用例设计，性能脚本的录制和编写。
+          - 负责自动化测试、性能测试与 Jenkins 集成，维护测试的相关 Git 仓库、测试技术招聘、新人培训。
+
+    - role: 软件测试工程师
+      time: 2012 - 2014
+      company: 京东商城, 北京
+      details: |
+          京东测试工程师
+
+          - 负责京东财务组多个系统的功能测试，自动化测试脚本的开发，集成和维护。
+          - 有互联网行业从业经历，了解电商业务。
+
+    - role: 软件测试工程师
+      time: 2011 - 2011
+      company: 东软集团, 北京
+      details: |
+        软件测试，历经过两个大型项目的软件测试工作。
+
+          - 外汇管理局，该项目整个团队大概 100 人，测试团队有 20 人左右，该项目采用 CMMI3 软件进行管理，负责用例编写和功能测试。
+          - 中移动云平台，负责云平台里虚拟机管理测试用例编写和功能测试。
+
+projects:
+    title: 项目
+    intro: >
+      在工作中和工作外开发的独立项目。
+
+    assignments:
+
+      - title: cpp-linter
+        link: "https://github.com/cpp-linter"
+        tagline: "为 C/C++ 代码格式化和静态分析提供 CI 和 git hooks 的解决方案"
+
+      - title: U2Box CLI
+        tagline: "一个使用 Go 开发的一个 Docker 命令行包装器，通过命令交互帮助开发更方便的使用 Docker 来快速准备开发环境。"
+
+      - title: Quality Gates
+        tagline: "Quality Gates是将编码规范，安全扫描，代码分析，Git Squash, TODO, Spelling Checks 等功能集成到 Pull Reuqest 中从而帮助团队提高编码规范和代码质量。此项目入围 2021 年 Rocket Bulid 决赛。"
+
+      - title: MV Intelligent Terminal
+        tagline: "通过 MV UOPY API 为 MV 产品创建智能命令行，包括自动补全，高亮显示。此项目获得 2019 年 Rocket Build 第一名和 CPO 双项大奖。"
+
+      - title: MV VM Management with JIRA
+        tagline: "利用现有系统 Jira 消除通过 Excel/Wiki 管理虚拟机所带来的额外工作，通过 Jira 提供可视化 Dashboard 和查询，帮助团队梳理和管理大量的虚拟机资源。"
+
+      - title: cpp-linter-action
+        link: "https://github.com/shenxianpeng/cpp-linter-action"
+        tagline: "一个用于 C/C++ 代码 Lint 的 Github Action，整合了 clang-format 和 clang-tidy，将分析结果通过评论或是注解的方式告知开发者。"
+
+      - title: clang-tools
+        link: "https://github.com/shenxianpeng/clang-tools"
+        tagline: "一个支持所有版本的 clang-format 和 clang-tidy 的 Docker 镜像。"
+
+      - title: ansible-role-polaris
+        link: "https://galaxy.ansible.com/shenxianpeng/polaris"
+        tagline: "一个开源 Ansible Role，实现轻松安装和设置 Polaris CLI。"
+
+      - title: atlassian-api-py
+        link: "https://pypi.org/project/atlassian-api-py/"
+        tagline: "使用 Python 编写的 Atlassian Rest API 库，方便与 Atlassian 的 Jira, Bitbucket 进行持续集成。"
+
+      - title: JST-automation
+        link: "https://github.com/shenxianpeng/JST-automation"
+        tagline: "使用 Java, Selenium, TestNG 实施的一个自动化测试框架示例，快速搭建 Web 自动化测试。"
+
+      - title: nightwatch-e2e
+        link: "https://github.com/nightwatchjs-cn/nightwatch-e2e"
+        tagline: "使用 NightwatchJs 实施的一个自动化测试框架示例，集成 CircleCI, Travis, SonarQube，快速实施 Web 自动化测试。"
+
+      - title: 微信公众号「DevOps攻城狮」
+        link: "https://shenxianpeng.github.io/about/"
+        tagline: "在公众号上分享 DevOps 领域的知识，通过这种方式让自己更好的掌握知识和学习新知识。"
+
+      - title: 微信小程序「DevOps攻城狮」
+        tagline: "基于学习微信小程序开发和发布，开发了我的博客的微信小程序版。"
+
+skills:
+    title: 技能 &amp; 专业
+
+    toolset:
+      - name: 持续集成
+        level: 95%
+
+      - name: DevOps
+        level: 90%
+
+      - name: 自动化测试
+        level: 90%
+
+      - name: Python
+        level: 90%
+
+      - name: Batch & Shell
+        level: 90%
+
+      - name: Go
+        level: 80%
