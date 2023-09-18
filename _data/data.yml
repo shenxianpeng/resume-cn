@@ -45,10 +45,10 @@ career-profile:
     title: 个人总结
     summary: |
       - 从测试转开发, 目前在从事 DevOps/Build/Release 相关工作。
-      - 负责 RocketSoftware MultiValue 数据库产品线的 DevOps 流水线的设计和设施, 自动化构建、发布、以及基础设施管理等工作。
+      - 负责部门产品线的 DevOps 流水线的设计和设施, 自动化构建、发布、以及基础设施管理等工作。
       - 熟悉 Windows, Linux, AIX, Solaris, HP-UX 操作系统以及 DevOps 工具, 包括但不限于 Jenkins/GitHub Actions/Artifactory/Bitbucket/GitHub/Docker/Ansible/Vagrant/K8s/Polaris/Blackduck/SonarQube/GCOV/LCOV 等。
       - 日常主要开发语言是 Python/Shell/Golang/Groovy 来完成一些 DevOps 的工作。
-      - 开源爱好者, 创建并共享 [cpp-linter](https://github.com/cpp-linter) 和 [commit-check](https://github.com/commit-check), 目前 cpp-linter 有 200 左右用户。
+      - 开源爱好者, [cpp-linter](https://github.com/cpp-linter) 和 [commit-check](https://github.com/commit-check) 的创建者和维护者, 目前 cpp-linter 有 300 左右用户。
       - 长期在我的[博客](https://shenxianpeng.github.io)和微信公众号《DevOps工程师》上分享 DevOps 领域知识。
 
 education:
@@ -71,10 +71,9 @@ experiences:
 
           - 规划和实施 DevOps 流水线, 帮助团队实现无人值守的自动化构建、安装、安全扫描、测试等流水线, 提高研发效率和质量。负责产品的构建和发布, 确保交付高质量、没有法律风险的产品。
           - 制定 Git 分支策略, 管理 Git 分支, 分享最佳实践以及优化工作流程。其中 Git 提交信息和分支规范已被应被用到整个 MultiValue 团队。
-          - 倡导并实践配置即代码(CaC), 编写的 Jenkins Shared Library 多次在内部团队进行分享和并被 Fork。
-          - 在内部开源了多个我个人编写的仓库, 包括 u2cicd, docker-images, ansible-playbook, u2box-cli, pipeline-library, vmmj, atlassian-api-py。
+          - 倡导并实践配置即代码 (CaC), 编写的 Jenkins Shared Library 多次在内部团队进行分享和并被 Fork。另外还有 ansible-playbook(通过 Ansible 创建和管理 Infrastructure), docker-images 等。
           - 通过不断的优化以及引入合理的 DevOps 工具、分享最佳实践, 让团队在公司内保持 DevOps 的“引领”位置。例如 DevOps Maturity Badge 已推广到全公司。
-          - 除了 DevOps 领域的工作之外，我还使用 GCC 编译器中的 GCOV + LCOV 帮助团队三十年来第一次得到了代码覆盖率指标；另外帮忙团队在 IBM AIX 操作系统上将编译器版本从古老的 XLC 10.1 升级到最新的 Open XLC 17.1.0。
+          - 作为产品的 DevOps 和 Build Engineer 我还使用 GCC 编译器中的 GCOV + LCOV 帮助团队第一次得到了代码覆盖率指标；帮忙团队在 AIX 操作系统上将编译器版本升级到最新的 IBM Open XLC 17.1.0。
 
     - role: 测试开发工程师
       time: 2015 - 2018
