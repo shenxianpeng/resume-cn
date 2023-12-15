@@ -44,13 +44,14 @@ sidebar:
 career-profile:
     title: 个人总结
     summary: |
-      - 擅长设计和开发 CI/CD 管道、自动化以及配置和管理基础设施，并应用最佳实践。
-      - 熟悉 Windows、Linux、AIX、Solaris、HP-UX 操作系统和软件开发生命周期（SDLC），包括开发、构建、测试和发布。
-      - 熟悉 DevOps 工具链，包括但不限于 Jenkins/Artifactory/Bitbucket/GitHub/Docker/Ansible/Polaris/BlackDuck/SonarQube/Vagrant/K8s 等。
-      - 牢记 "扫描-尝试-扩展"，经常关注 DevOps 行业的最新发展和技术，尝试使用它们，并最终扩展到团队。
-      - 我的主要开发语言是 Python/Shell/Golang/Groovy 来完成一些 DevOps 的工作。
-      - 我也是一名开源爱好者，业余时间创建了 [cpp-linter](https://github.com/cpp-linter) 和 [commit-check](https://github.com/commit-check) 两个开源项目，目前 cpp-linter 已有 400 多名用户，并被微软、谷歌以及Star数量很高的项目所采用。
-      - 坚持学习和分享，六年来我坚持在我的[博客](https://shenxianpeng.github.io)和微信公众账号 "DevOps Engineer "上分享 DevOps 领域的知识。
+      - DevOps/Build/Release 领域的 Tech Lead。
+      - 从零建立起团队的 DevOps，并在整个团队以及整个部门分享最佳实践。
+      - 之前从事自动化测试工作，从 2018 年开始担任 DevOps/Build/Release 工程师。此前曾在京东、东软和 SIMCom 担任测试及测试开发。
+      - 熟悉 Windows、Linux、AIX、Solaris、HP-UX 操作系统、软件开发生命周期、DevOps 工具链。
+      - 善于做 "Scan-Try-Scale"，关注 DevOps 行业的最新发展和技术，尝试并应用最佳实践到团队。
+      - 主要开发语言是 Python/Shell/Golang/Groovy 来完成一些 DevOps 的相关工作。
+      - 开源爱好者，业余时间创建并贡献 [cpp-linter](https://github.com/cpp-linter) 和 [commit-check](https://github.com/commit-check) 两个开源项目，目前 cpp-linter-action 已有 400 多名用户，被微软、谷歌以及 Star 数量很高的项目所使用。
+      - 知识分享者，七年来在我的[博客](https://shenxianpeng.github.io)和微信公众账号 "DevOps攻城狮 "上分享上百篇技术文章，有几十万的阅读量。
 
 education:
     - degree: 软件技术
@@ -59,38 +60,39 @@ education:
       details: |
 
 experiences:
-    - role: DevOps工程师
-      time: 2018 - Present
+    - role: DevOps/Build/Release 工程师
+      time: 2015 - Present
       company: Rocket Software, 大连
       details: |
-        MultiValue 的 DevOps/Build 工程师负责产品构建和发布、基础设施管理、DevOps 以及 CI/CD 管道设计和实施。
+        Rocket MultiValue Build/Release/DevOps 工程师，负责与 DevOps 相关的产品构建和发布、基础设施管理以及 CI/CD 管道设计和实施。
 
-          - 规划和实施 DevOps 流水线, 帮助团队实现无人值守的自动化构建、安装、安全扫描、测试等流水线, 提高研发效率和质量。负责产品的构建和发布, 确保交付高质量、没有法律风险的产品。
-          - 制定 Git 分支策略, 管理 Git 分支, 分享最佳实践以及优化工作流程。其中 Git 常规提交和分支规范已被应被用到整个 MultiValue 团队。
-          - 倡导并实践配置即代码 (CaC), 编写的 Jenkins 共享库多次在内部团队进行分享和并被 Fork。还编写了 ansible-playbook 帮助团队快速配置构建和开发环境，避免灾难风险。
-          - 创建了多个由我编写的仓库包括 u2cicd、docker-images、ansible-playbook、u2box-cli、pipeline-library、vmmj、mv-infra，用于实施 DevOps 实践，如 "配置即代码"、"基础设施即代码 "和 "容器化"。
-          - 通过不断的优化以及引入合理的 DevOps 工具、分享最佳实践, 让团队在 Rocket 内部保持 DevOps 的"前沿"位置。例如 DevOps 成熟度徽章已在 RocketSoftware 研发部门全面推广。
-          - 除了在 DevOps 领域的工作，我还帮助团队使用 GCOV + LCOV 获得了 30 年来的首次代码覆盖率指标，并帮助团队在 IBM AIX 操作系统上将编译器从 XLC 10.1 升级到最新的 Open XLC 17.1.0。
-          - 作为产品的 DevOps 和 Build Engineer 我还使用 GCC 编译器中的 GCOV + LCOV 帮助团队第一次得到了代码覆盖率指标；帮忙团队在 AIX 操作系统上将编译器版本升级到最新的 IBM Open XLC 17.1.0。
-          - 几乎每年都提交 Rocket.Build 创意。RB-218 MV Intelligent Terminal 获得 2019 年 Rocket Build 一等奖和 CPO 奖，并前往波士顿参赛；RB-544 VitalSign 入选并进入 2020 年 Rocket Virtual Build 第二轮决赛。
+        在以下产品中扮演 Build/Release/DevOps 角色
 
-    - role: 测试开发工程师
-      time: 2015 - 2018
-      company: Rocket Software, 大连
-      details: |
-        Rocket Discover 自动化测试带头人, 带领测试团队从零开展自动化测试, 提高回归测试效率。
+          - MultiValue Application Server： UniVerse、UniData、jBASE、OpenQM。
+          - MVAS Tools： UCC、UDNK、MVVS、UOPY，以及 UDBT 和 SBXA 。
 
-          - 负责自动化测试框架选择、用例设计、设计和编写性能自动化测试用例。
-          - 负责自动化测试、性能测试与 Jenkins 的持续集成，测试技术招聘、新人培训。
+        实施的 DevOps 最佳实践
 
-    - role: 自动化c工程师
+          - 配置即代码（CaC）--将所有构建工作从手动或 Bamboo 转移到 Jenkins，并创建 Jenkins 共享库，以更好地管理自动化构建和扩展。这为团队提供了自助式构建服务，节省了团队的时间，也节省了我的时间，而且在发生任何灾难时，CaC 可以快速恢复。与其他团队分享最佳实践。
+          - 基础架构即代码（IaC）--创建了 ansible-playbooks 和 mv-infra 软件仓库，将构建、Jenkins 服务器和开发基础架构作为代码进行管理，帮助团队快速提供开发/构建环境，防止业务发生灾难。
+          - 创建 Docker Images 软件仓库，对 MVAS 产品进行 Dockized 以实现容器化 - 采用了 DevOps 的许多最新实践，例如 Docker buildx bake 构建镜像，使用 Docker Health check、pytest 和 CI/CD 测试镜像，使用 Renenote bot 管理依赖关系，以及使用 Kubernetes 部署 Docker 镜像。
+        
+        提出并实施的倡议
+
+          - 提出 DevOps 成熟度徽章，帮助 MV 团队更好地衡量我们的 DevOps 成熟度，该徽章已扩展到 Rocket R&D。
+          - 建议并实施 MVAS 团队采用 Git Conventional Commit，并推广到整个 MV 团队。
+          - 使用 Jira 管理虚拟机 - 创建了 Jira 并编写了 Python 程序来自动管理虚拟机，以解决团队和管理人员管理虚拟机的问题，该程序已应用于整个 BU。
+          - 代码覆盖率 - 几十年来首次帮助 UniVerse 和 UniData 获得代码覆盖率结果，并为 U2、jBASE、MVVS 等创建覆盖率在线报告。
+          - Rocket Build - 始终贡献创新理念，MV Intelligent Terminal 荣获 2019 年 Rocket Build 一等奖和 CPO 奖。VitalSign 被选中并进入 2020 年 Rocket Build 决赛。
+          - 在加入 MV 之前，我是 Rocket Discover 自动化测试带头人，带领团队从零开始实施自动化测试，提高回归测试效率。
+
+    - role: 自动化测试工程师
       time: 2012 - 2014
       company: 京东商城, 北京
       details: |
-          京东测试工程师
+        京东测试工程师
 
-          - 负责京东财务组多个系统的功能测试, 自动化测试脚本的开发, 集成和维护。
-          - 有互联网公司的从业经历, 了解电商业务。
+          - 负责京东财务组多个系统的功能测试, 自动化测试脚本的开发, 持续集成。
 
     - role: 软件测试工程师
       time: 2011 - 2011
