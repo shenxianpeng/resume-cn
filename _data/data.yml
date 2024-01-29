@@ -13,7 +13,7 @@ sidebar:
 
     # Sidebar links
     email: xianpeng.shen@gmail.com
-    phone: +86 18642690086
+    phone: +86 1864269008
     website: shenxianpeng.github.io
     linkedin: xianpeng-shen
     github: shenxianpeng
@@ -50,7 +50,7 @@ career-profile:
       - 熟悉 Windows、Linux、AIX、Solaris、HP-UX 操作系统、软件开发生命周期、DevOps 工具链。
       - 善于做 "Scan-Try-Scale"，关注 DevOps 行业的最新发展和技术，尝试并应用最佳实践到团队。
       - 主要开发语言是 Python/Shell/Golang/Groovy 来完成一些 DevOps 的相关工作。
-      - 开源爱好者，业余时间创建并贡献 [cpp-linter](https://github.com/cpp-linter) 和 [commit-check](https://github.com/commit-check) 两个开源项目，目前 cpp-linter-action 已有 400 多名用户，被微软、谷歌以及 Star 数量很高的项目所使用。
+      - 开源爱好者，业余时间创建并贡献 [cpp-linter](https://github.com/cpp-linter) 和 [commit-check](https://github.com/commit-check) 两个开源项目，目前 cpp-linter-action 已有 400 多名用户，被微软、Linux基金会以及 Star 数量很高的项目所使用。
       - 知识分享者，七年来在我的[博客](https://shenxianpeng.github.io)和微信公众账号 "DevOps攻城狮 "上分享上百篇技术文章，有几十万的阅读量。
 
 education:
